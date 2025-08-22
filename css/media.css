@@ -1,0 +1,370 @@
+/* Extra large devices  */
+@media (min-width: 1200px) {
+}
+
+/* Large devices  */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* Medium devices  */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-toggler i{
+        color: #fff;
+        font-size: 30px;
+    }
+    .navbar-nav{
+        background:#000;
+        text-align: center;
+        border-radius: 10px;
+
+    }
+    .contactBtn{
+        margin-top: 10px;
+    }
+}
+
+/* Small devices  */
+@media (min-width: 576px) and (max-width: 767.98px){
+    .navbar-toggler i{
+        color: #fff;
+        font-size: 30px;
+    }
+    .navbar-nav{
+        background: #333232;
+        text-align: center;
+        border-radius: 10px;
+
+    }
+    .contactBtn{
+        margin-top: 10px;
+    }
+  
+    .navbar-brand img {
+        width: 170px;
+    }
+        .contactBtn {
+           
+            font-size: 12px;
+        }
+        .bannerTitle h2 {
+            
+            margin-top: -203px;
+        }
+        .btext h1 {
+            font-size: 30px;
+            margin-top: -105px;
+            padding: 0px 0px;
+           
+        }
+        .bparagraph p {
+            
+            padding: 0px 0px;
+            
+        }
+        .btn {
+           
+            font-size: 12px;
+            
+            margin-top: 34px;
+        }
+        .btnone {
+           
+            font-size: 13px;
+            margin-top: 20px;
+        }
+        .aboutImg img{
+            width: 200px;
+        }
+        .aboutImgTwo img{
+            width: 200px;
+        } 
+        .aboutImgTwo {
+           
+            top: 280px;
+            left: 183px;
+           
+        }
+        .aboutText h2 {
+            font-size: 30px;
+            margin-top: 178px;
+        }
+        .aboutText h3 {
+            font-size: 18px;
+           
+            margin-bottom: -137px;
+            
+            margin-top: 147px;
+        }
+        .aboutText p {
+           
+            font-size: 14px;
+            
+        }
+        .iconMobile img{
+            width: 50px;
+        }
+        .iconMobileTwo img{
+            width: 50px;
+        }
+        .iconText h3 {
+            font-size: 18px;
+           margin-top: -20px;
+        }
+        .iconText p {
+            
+            font-size: 14px;
+            
+            width: 248px;
+            font-weight: 400;
+            margin-top: 150px;
+           
+        }
+        .iconTextTwo p {
+            font-size: 14px;
+            
+            width: 248px;
+            font-weight: 400;
+        }
+        .iconTextTwo h3 {
+            font-size: 16;
+            font-weight: 400;
+            color: #fff;
+            font-family: "Epilogue", serif;
+            margin-bottom: 20px;
+            line-height: 120%;
+        }
+        .iconTextTwo::after {
+           
+            margin-left: -64px;
+           
+        }
+        .iconTextTwo {
+            margin-top: -140px;
+        }
+        .serviceTitle h2{
+            font-size: 25px;
+            line-height: 26px;
+            padding: 0px 7px;
+        }
+        .fleetTitle h2 {
+            font-size: 38px;
+           
+        }
+        .fleetItem {
+           
+            margin-top: 24px;
+           
+        }
+        .questionText h2 {
+            font-size: 36px;
+            
+        }
+        .vedioText h2 {
+            font-size: 33px;
+            padding: 0px 44px;
+        }
+        .fleetText h6 {
+            
+            padding: 0px 198px;
+           
+        }
+        .carImg img {
+           
+            margin-left: 53px;
+        }
+        .prev {
+            position: absolute;
+            font-size: 20px;
+            color: #fff;
+            border-radius: 50%;
+            background: red;
+            padding: 11px 12px;
+            top: 654px;
+            left: 42%;
+        }
+        .iconflex {
+  
+   justify-content: flex-start;
+    gap:5px;
+    display: flex;
+    margin-left: -58px;
+}
+ .lastAfter::after {
+        
+        width: 440px;
+       
+    }
+    .ltext h6 {
+        font-size: 14px;
+  margin-left: -422px;
+}
+.textflex{
+        
+        justify-content: space-between;
+    }
+    .fleetText h6{
+        padding: 0px 100px;
+    }
+   .after {
+  
+  width: 525px;
+  
+}
+
+}
+    
+
+
+/* Extra small devices */
+@media (max-width: 575.98px) {
+    .navbar-toggler i{
+        color: #fff;
+        font-size: 30px;
+    }
+    .navbar-nav{
+        background: #191919;
+        text-align: center;
+        border-radius: 10px;
+
+    }
+    .contactBtn{
+        margin-top: 10px;
+    }
+    .navbar-brand img{
+        width: 100px;
+    }
+    .contactBtn {
+       
+        font-size: 12px;
+    }
+    .bannerTitle h2 {
+        
+        margin-top: -203px;
+    }
+    .btext h1 {
+        font-size: 30px;
+        margin-top: -105px;
+        padding: 0px 0px;
+       
+    }
+    .bparagraph p {
+        
+        padding: 0px 0px;
+        
+    }
+    .btn {
+       
+        font-size: 12px;
+        
+        margin-top: 34px;
+    }
+    .btnone {
+       
+        font-size: 13px;
+        margin-top: 20px;
+    }
+    .aboutImg img{
+        width: 200px;
+    }
+    .aboutImgTwo img{
+        width: 200px;
+    } 
+    .aboutImgTwo {
+       
+        top: 280px;
+        left: 183px;
+       
+    }
+    .aboutText h2 {
+        font-size: 30px;
+        margin-top: 178px;
+    }
+    .aboutText h3 {
+        font-size: 18px;
+       
+        margin-bottom: -137px;
+        
+        margin-top: 147px;
+    }
+    .aboutText p {
+       
+        font-size: 14px;
+        
+    }
+    .iconMobile img{
+        width: 50px;
+    }
+    .iconMobileTwo img{
+        width: 50px;
+    }
+    .iconText h3 {
+        font-size: 18px;
+       margin-top: -20px;
+    }
+    .iconText p {
+        
+        font-size: 14px;
+        
+        width: 248px;
+        font-weight: 400;
+        margin-top: 150px;
+       
+    }
+    .iconTextTwo p {
+        font-size: 14px;
+        
+        width: 248px;
+        font-weight: 400;
+    }
+    .iconTextTwo h3 {
+        font-size: 16;
+        font-weight: 400;
+        color: #fff;
+        font-family: "Epilogue", serif;
+        margin-bottom: 20px;
+        line-height: 120%;
+    }
+    .iconTextTwo::after {
+       
+        margin-left: -64px;
+       
+    }
+    .iconTextTwo {
+        margin-top: -140px;
+    }
+    .serviceTitle h2{
+        font-size: 25px;
+        line-height: 26px;
+        padding: 0px 7px;
+    }
+    .fleetTitle h2 {
+        font-size: 38px;
+       
+    }
+     .prev {
+            position: absolute;
+            font-size: 20px;
+            color: #fff;
+            border-radius: 50%;
+            background: red;
+            padding: 11px 12px;
+            top: 585px;
+            left: 42%;
+        }
+        .iconflex {
+  
+    margin-left: 20px;
+}
+ .lastAfter::after {
+     
+        height: 1px;
+        margin-left: 20px;
+       
+    }
+    .after {
+  
+  width: 525px;
+  
+}
+}

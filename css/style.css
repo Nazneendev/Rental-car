@@ -1,0 +1,743 @@
+/* All common css */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    /* font-family: "Epilogue", serif; */
+    /* font-family: "DM Sans", serif;  */
+}
+ul,ol{
+    list-style-type: none;
+}
+a,a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+/* All common css end  */
+
+
+body{
+    background: #000;
+}
+/* up button  */
+  .back-to-top{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+  }
+  .back-to-top i{
+    font-size: 50px;
+    color: red;
+  }
+  /* up button  */
+
+/* Navbar menu css */
+.nav-link{
+    padding: 0 30px !important;
+    font-size: 18px;
+    font-weight: 400;
+   
+    color: #fff;
+    font-family: "DM Sans", serif;  
+   
+}
+.navbar{
+    background: #000;
+   
+}
+.navbar-brand img{
+    margin-left: 0px;
+}
+.nav-link:hover{
+    color:red;
+    
+}
+.contactBtn{
+   padding: 15px 35px;
+    background:red ;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    transition: .4s;
+}
+.contactBtn:hover{
+    background: #fff;
+    color: red;
+    
+}
+/* banner part start  */
+#bannerPart{
+   
+
+    background:url(../images/hero-bg.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 46px;
+    margin: 0px 50px;
+}
+.overly{
+    background: rgba(0, 0, 0, 0.150);
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+.bannerTitle h2 {
+    font-size: 19px;
+    font-weight: 600;
+    font-family: "Epilogue", serif;
+    margin-bottom: 15px;
+    line-height: 26px;
+   
+}
+
+.btext h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+   font-family: "Epilogue", serif;
+    margin-bottom: 15px;
+    padding: 0px 155px;
+    line-height: 120%;
+}
+.bparagraph p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    font-family: "DM Sans", serif;
+    margin-bottom: 15px;
+    padding: 0px 120px;
+    line-height: 26px;
+}
+.btn{
+    padding: 12px 33px;
+    background:red ;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    transition: .4s;
+    
+  
+}
+.btn:hover{
+    background: #fff;
+    color: red;
+}
+
+/* About part start  */
+#aboutPart{
+   
+    padding: 100px 0;
+}
+.aboutImg img{
+    border-radius: 200px;
+}
+.aboutImgTwo {
+    border-radius: 200px;
+    position: absolute;
+    top: 467px;
+    left: 349px;
+    z-index: 1;
+    content: "";
+    transform: translate(-50%,-50%);
+}
+.aboutImgTwo img{
+    border-radius: 200px;
+}
+.imgRapper{
+    position: relative;
+
+}
+.aboutText h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+    font-family: "Epilogue", serif;
+    margin-bottom: 15px;
+    line-height: 120%;
+}
+.aboutText h3{
+    font-size: 20px;
+    font-weight: 600;
+    color:red;
+    font-family: "Epilogue", serif;
+    margin-bottom: 15px;
+    line-height: 120%;
+}
+.aboutText p{
+    color: #cecece;
+    font-size: 16px;
+    font-family: "DM Sans", serif; 
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+.iconText h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    font-family: "Epilogue", serif;
+    margin-bottom: 20px;
+    line-height: 120%;
+
+}
+.iconText p{
+    color:  #cecece;
+    font-size: 16px;
+    font-family: "DM Sans", serif;
+    line-height: 27px;
+    width: 600px;
+    font-weight: 400;
+
+}
+.iconMobile i{
+    color: #bd3b3b;
+    font-size: 70px;
+}
+.iconRapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.iconText::after {
+    content: "";
+    display: block;
+    width: 641px;
+    height: 1px;
+    background: rgb(73, 70, 70);
+    margin-top: 20px;
+    margin-left: -62px;
+    margin-bottom: 20px;
+}
+
+.iconTextTwo h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    font-family: "Epilogue", serif;
+    margin-bottom: 20px;
+    line-height: 120%;
+
+}
+.iconTextTwo p{
+    color:  #cecece;
+    font-size: 16px;
+    font-family: "DM Sans", serif;
+    line-height: 27px;
+    width: 600px;
+    font-weight: 400;
+
+}
+.iconTextTwo i{
+    color: #bd3b3b;
+    font-size: 70px;
+}
+
+.iconTextTwo::after {
+    content: "";
+    display: block;
+    width: 644px;
+    height: 1px;
+    background: rgb(71, 70, 70);
+    margin-top: 20px;
+    margin-left: -91px;
+    margin-bottom: 20px;
+}
+/* About part end  */
+/* Service part start  */
+#servicePart{
+    padding: 100px 0;
+    background: #191919;
+    border-radius: 46px;
+    margin: 0px 50px;
+}
+.serviceTitle h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+    font-family: "Epilogue", serif;
+    margin-bottom: 15px;
+    line-height: 120%;
+    padding: 0px 287px;
+}
+.serviceTitle h3{
+    font-size: 20px;
+    font-weight: 600;
+    color:red;
+    font-family: "Epilogue", serif;
+    margin-bottom: 15px;
+    line-height: 120%;
+    
+}
+.serviceItem{
+    padding: 23px;
+    margin-top: 50px;
+    transition: .4s;
+    border-radius: 20px;
+    background: #000;
+   
+}
+.serviceText h3{
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-family: "Epilogue", serif;
+}
+.serviceText p {
+    font-size: 16px;
+    font-weight: 400;
+    color:#cecece;
+    line-height: 26px;
+    padding: 0px 11px;
+}
+.serviceItem:hover{
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+background: red;
+transition: .4s;
+}
+.btnService{
+    padding: 12px 33px;
+    background:red ;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.serviceP p{
+    font-size: 16px;
+    font-weight: 500;
+    color:#cecece;
+    line-height: 27px;
+    font-family: "DM Sans", serif;
+    margin-top: 60px;
+}
+/* Service part end  */
+/* Fleets part start  */
+#fleetPart{
+    padding: 20px 0;
+    margin-top: 50px;
+}
+.fleetTitle h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+    font-family: "Epilogue", serif;
+    margin-bottom: 15px;
+    line-height: 120%;
+    padding: 0px 0px;
+}
+.fleetTitle h3{
+    font-size: 20px;
+    font-weight: 600;
+    color:red;
+    font-family: "Epilogue", serif;
+    margin-bottom: 15px;
+    line-height: 120%;
+    
+}
+.fleetText h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-family: "Epilogue", serif;
+}
+.fleetText h6 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #cecece;
+    line-height: 26px;
+    padding: 0px 93px;
+    border-radius: 50%;
+    background: #000;
+    margin-top: 10px;
+}
+#carslider{
+    padding: 100px 0;
+}
+.fleetItem {
+    padding: 45px;
+    margin-top: 0px;
+    border-radius: 30px;
+    background: #191919;
+   margin-right: 20px;
+}
+.fleetIconRapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+   
+}
+.fleetIconRapperTwo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 13px;
+   
+}
+.fleetIconText p{
+    font-size: 16px;
+    color: #cecece;
+}
+.iconpassenger i{
+    font-size: 18px;
+    color: #cecece;
+}
+.fleetAfter::after {
+    content: "";
+    display: block;
+    width: 289px;
+    height: 1px;
+    background: rgb(92, 89, 89);
+    margin-top: 20px;
+    margin-left: -14px;
+    margin-bottom: 20px;
+}
+.payment{
+    margin-top: 40px;
+}
+.payment span{
+    font-size: 25px;
+    color: #fff;
+    font-weight: 600;
+
+}
+.payment h6{
+    font-size: 15px;
+    color: #fff;
+}
+.arrowFlex{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.arrowIcon i {
+    font-size: 20px;
+    color: #fff;
+    margin-top: 32px;
+    border-radius: 50%;
+    background: red;
+    padding: 11px 12px;
+}
+.arrowIcon i:hover{
+    background: #fff;
+    color: red;
+}
+.prev{
+   
+    position: absolute;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 50%;
+    background: red;
+    padding: 11px 12px;
+    top: 585px;
+    left: 45%;
+}
+.next{
+    position: absolute;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 50%;
+    background: red;
+    padding: 11px 12px;
+    bottom: -80px;
+    left: 50%;
+
+}
+
+/* Fleets part end  */
+/* car img part start  */
+#carImgPart{
+    padding: 100px 0;
+}
+.carImg img {
+    border-radius: 50px;
+    margin-top: 50px;
+    width: 450px;
+    margin-left: 21px;
+}
+.carItem{
+    position: relative;
+    z-index: 0;
+}
+.overlyCar {
+    background: rgba(0, 0, 0, 0.180);
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    width: 104%;
+    height: 96%;
+    z-index: 1;
+    border-radius: 50px;
+}
+.carArrowIcon i {
+    font-size: 20px;
+    color: #fff;
+    margin-top: 448px;
+    border-radius: 50%;
+    background: red;
+    padding: 11px 12px;
+    margin-left: 388px;
+}
+.carArrowIcon i:hover{
+    background: black;
+    color: #fff;
+}
+.cartext h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    font-family: "Epilogue", serif;
+    margin-top: 50px;
+    line-height: 120%;
+    margin-left: 54px;
+}
+/* car img part end  */
+/* Questions part start  */ 
+#questionPart{
+    padding: 100px 0;
+    background: #191919;
+    border-radius: 46px;
+    margin: 0px 50px;
+    margin-top: 80px;
+}
+.building img {
+    width: 500px;
+    border-radius: 50px;
+    margin-top: 90px;
+}
+.questionText h3{
+    font-size: 20px;
+    font-weight: 600;
+    color:red;
+    font-family: "Epilogue", serif;
+    margin-bottom: 15px;
+    line-height: 120%;
+
+}
+.questionText h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+    font-family: "Epilogue", serif;
+    margin-bottom: 15px;
+    line-height: 120%;
+}
+
+.accordion-header h4{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Epilogue", serif;
+    margin-bottom: 15px;
+    line-height: 120%;
+
+}
+.accordion-header{
+    background: #000 !important;
+} 
+.accordion-body{
+    background: #000;
+}
+.accordion-body h6{
+    color: #cecece;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "DM Sans", serif;
+    line-height: 27px;
+    margin-top: 20px;
+
+}
+.accordion-header i{
+    color: #fff;
+    margin-left: 262px;
+}
+.accordion-button{
+    background: #000;
+   
+}
+.accordion-button::after {
+   
+    background-image: none!important;
+   
+}
+.accordion-item {
+    color: var(--bs-accordion-color);
+    background-color:none !important;
+    border:none !important;
+}
+.accordion-button:not(.collapsed) {
+    color: none !important;
+    background-color: #000;
+    box-shadow: none !important;
+}
+/* question part end  */
+/* vedio part start  */
+#vedioPart{
+        background:url(../images/intro-video-bg.jpg) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 46px;
+        margin: 0px 50px;
+        margin-top: 80px;
+       
+    }
+    .vedioOverly{
+        background: rgba(0, 0, 0, 0.140);
+        padding-top: 300px;
+        padding-bottom: 300px;
+    }
+    .vedioText h2{
+        font-size: 45px;
+        font-weight: 700;
+        color: #fff;
+        font-family: "Epilogue", serif;
+       margin-top: 21px;
+        line-height: 120%;
+        padding: 0px 287px;
+    }
+    .vedioText h3{
+        font-size: 20px;
+        font-weight: 600;
+        color:red;
+        font-family: "Epilogue", serif;
+       margin-top: -211px;
+        line-height: 120%;
+        
+    }
+    .vedioText i{
+        color: white;
+        font-size: 30px;
+        margin-top: 100px;
+        padding: 18px 22px;
+        background-color: red;
+        border-radius: 50%;
+        text-align: center;
+    }
+    .after {
+        content: "";
+        display: block;
+        width: 1316px;
+        height: 1px;
+        background: rgb(92, 89, 89);
+        margin-top: 94px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    /* video part end   */
+    /* last part start  */
+    #lastPart{
+        background:url(../images/testimonial-bg.png) ;
+       
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 46px;
+        margin: 0px 50px;
+        margin-top: 100px;
+    }
+    .lastOverly{
+        background: rgba(224, 217, 217, 0.181);
+        padding-top: 80px;
+        padding-bottom: 200px;
+        border-radius: 46px;
+    }
+    .text h6{
+        font-size: 17px;
+        font-weight: 600;
+        color:#cecece;
+       font-family: DM Sans, serif;
+        margin-bottom: 15px;
+        line-height: 120%;
+        margin-top: 20px;
+    }
+    .text h3{
+        font-size: 24px;
+        font-weight: 600;
+        color: #fff;
+        font-family: "Epilogue", serif;
+        margin-bottom: 15px;
+        line-height: 120%; 
+        margin-left: 30px;
+    }
+    .text ul li{
+        font-size: 17px;
+        font-weight: 600;
+        color:#cecece;
+       font-family: DM Sans, serif;
+        margin-bottom: 15px;
+        line-height: 120%;
+        margin-top: 20px;
+    }
+    .lastAfter::after {
+        content: "";
+        display: block;
+        width: 1316px;
+        height: 1px;
+        background: rgb(92, 89, 89);
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .contactForm{
+        background:#cecece;
+        padding: 10px;
+        border-radius: 20px;
+        margin-left: 20px;
+    }
+    .contactForm input{
+        padding: 0px;
+        border: none;
+        box-shadow: none;
+        background:#cecece;
+    }
+    .contactForm input::placeholder{
+        color: #575454;
+        font-size: 16px;
+        font-weight: 400;
+    
+    }
+    .ltext h6 {
+        font-size: 20px;
+        font-weight: 600;
+        color: #cecece;
+        font-family: DM Sans, serif;
+        margin-bottom: 15px;
+        line-height: 120%;
+        margin-top: 39px;
+        margin-left: -1329px;
+    }
+    .textflex{
+        display: flex;
+        justify-content: space-between;
+    }
+    .icotext i{
+        color:#cecece;
+        font-size: 30px;
+    }
+    .iconflex{
+        display: flex;
+        justify-content: space-between;
+       margin-top: 45px;
+       gap:5px;
+     
+    }
+
+
+
+
+
+
